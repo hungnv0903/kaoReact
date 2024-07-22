@@ -1,0 +1,11 @@
+{
+    "Vietnam":["HAN","DAD","SGN","DIN","HPH","THD","VII","VDO","VCL","VDH","HUI","PXU","TBB","BMV","CXR","UIH","DLI","VCA","VKG","CAH","PQC","VCS"] ,
+    "Indochina":["PNH", "REP" , "VTE", "LPQ"] ,
+    "SouthEastAsia":["DMK", "BKK",  "JKT", "DPS", "KUL", "MNL", "SIN", "RGN"] ,
+    "Africa" : ["AAE", "NBO", "MPM", "LAD", "JNB", "CPT", "DAR", "MAD"] ,
+    "NorthEastAsia":["GMP", "ITM", "KIX", "UKB", "BJS", "PVG", "CAN", "NRT", "HND", "NGO", "FUK", "OSA", "ICN", "PUS"] , 
+    "WestAsiaMiddle East" : ["BOM", "DEL", "KTM", "DAC", "CCU", "DXB"] , 
+    "Oceania" : [ "MEL", "SYD", "ADL", "BNE", "AKL", "WLG"] , 
+    "Europe" : ["ORY", "SXF", "CDG", "LON", "MAN", "TXL", "FRA", "AMS", "GVA", "PRG", "ROM", "VIE"] ,
+    "UnitedStatesCanada" : ["EWR", "LGA", "OAK", "SJC", "NYC", "WAS", "JFK", "LAX", "SFO", "ATL", "BOS", "CHI", "DFW", "DEN", "HNL", "MIA", "MSP", "PHL", "SEA", "STL", "YVR", "YYZ", "YOW", "YMQ"]
+}

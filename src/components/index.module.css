@@ -1,0 +1,103 @@
+.btnSearchFlight,
+.btnSearchFlight *,
+.btnSearchFlight :after,
+.btnSearchFlight :before,
+.btnSearchFlight:after,
+.btnSearchFlight:before {
+  border: 0 solid;
+  box-sizing: border-box;
+}
+.btnSearchFlight {
+  -webkit-tap-highlight-color: transparent;
+  -webkit-appearance: button;
+  background-color: #000;
+  background-image: none;
+  color: #fff;
+  cursor: pointer;
+  font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont,
+    Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif,
+    Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+  font-size: 100%;
+  font-weight: 900;
+  line-height: 1.5;
+  margin: 0;
+  -webkit-mask-image: -webkit-radial-gradient(#000, #fff);
+  padding: 0;
+}
+.btnSearchFlight:disabled {
+  cursor: default;
+}
+.btnSearchFlight:-moz-focusring {
+  outline: auto;
+}
+.btnSearchFlight svg {
+  display: block;
+  vertical-align: middle;
+}
+.btnSearchFlight [hidden] {
+  display: none;
+}
+.btnSearchFlight {
+  background: none;
+  border: 5px solid;
+  border-radius: 50%;
+  box-sizing: border-box;
+  display: block;
+  height: 90px;
+  -webkit-mask-image: none;
+  padding: 15px;
+  position: relative;
+  text-transform: uppercase;
+  width: 90px;
+}
+.btnSearchFlight svg {
+  fill: #000;
+  position: relative;
+  z-index: 1;
+}
+.btnSearchFlight:hover svg {
+  fill: #fff;
+}
+.btnSearchFlight:before {
+  background: #fff;
+  border-radius: 50%;
+  content: "";
+  inset: 4px;
+  opacity: 1;
+  pointer-events: none;
+  position: absolute;
+  transform: scale(1);
+  transition: 0.5s;
+}
+.btnSearchFlight:hover:before {
+  opacity: 0;
+  transform: scale(4);
+}
+
+.listAirport {
+  overflow-y: scroll;
+  width: 730px ;
+  height: 320px;
+}
+
+.listAirport::-webkit-scrollbar {
+  width: 0px; /* Độ rộng của thanh cuộn dọc */
+  height: 10px; /* Độ cao của thanh cuộn ngang */
+}
+
+/* Thay đổi màu nền của thanh cuộn */
+.listAirport::-webkit-scrollbar-track {
+  background: #f1f1f1; /* Màu nền của track (phần chứa thanh cuộn) */
+  border-radius: 20px; /* Bo tròn các góc của track */
+}
+
+/* Thay đổi kiểu của thanh cuộn */
+.listAirport::-webkit-scrollbar-thumb {
+  background: #837f81; /* Màu của thanh cuộn */
+  border-radius: 20px; /* Bo tròn các góc của thanh cuộn */
+}
+
+/* Thay đổi kiểu khi hover vào thanh cuộn */
+.listAirport::-webkit-scrollbar-thumb:hover {
+  background: #555; /* Màu của thanh cuộn khi hover */
+}
